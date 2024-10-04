@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FAC5DB252CB018C00006C776 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5DB242CB018C00006C776 /* QuizViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FA665B4D2CAD737600095C39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		FA665B332CAD737300095C39 /* ClassmateAppGruper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassmateAppGruper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA665B4C2CAD737600095C39 /* ClassmateAppGruperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppGruperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA665B562CAD737600095C39 /* ClassmateAppGruperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppGruperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC5DB242CB018C00006C776 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		FA665B2A2CAD737300095C39 = {
 			isa = PBXGroup;
 			children = (
+				FAC5DB242CB018C00006C776 /* QuizViewController.swift */,
 				FA665B352CAD737300095C39 /* ClassmateAppGruper */,
 				FA665B4F2CAD737600095C39 /* ClassmateAppGruperTests */,
 				FA665B592CAD737600095C39 /* ClassmateAppGruperUITests */,
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC5DB252CB018C00006C776 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
