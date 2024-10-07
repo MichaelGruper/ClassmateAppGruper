@@ -14,10 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var michael = Classmate(name: "Michael", grade: 11, nickname: "Michael Michael Motorcycle")
-        var ryan = Classmate(name: "Ryan", grade: 11, nickname: "Rainbow Ryan")
+        var ryan = Classmate(name: "Ryan Spencer", grade: 11, nickname: "Rainbow Ryan")
         var sean = Classmate(name: "Sean", grade: 11, nickname: "Boat Gone Sean")
         var logan = Classmate(name: "Logan", grade: 11, nickname: "Googball Googan")
-        var jayden = Classmate(name: "Jayden", grade: 12, nickname: "Sleepey Sawyer")
+        var jayden = Classmate(name: "Jayden", grade: 12, nickname: "Sleepy Sawyer")
         var cam = Classmate(name: "Cam", grade: 12, nickname: "Chef Cam")
         var brennan = Classmate(name: "Brennan", grade: 10, nickname: "Breaking Brennan")
         var evan = Classmate(name: "Evan", grade: 11, nickname: "Fluting Evan")
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         var eva = Classmate(name: "Eva", grade: 12, nickname: "No Pickel Noftz")
         var ava = Classmate(name: "Ava", grade: 11, nickname: "Abba Ava")
         var justin = Classmate(name: "Justin", grade: 12, nickname: "Wicked Weber")
-        var john = Classmate(name: "John", grade: 12, nickname: "Gimmy John")
+        var john = Classmate(name: "John", grade: 12, nickname: "Gymmy John")
         
         students.append(michael)
         students.append(ryan)
@@ -38,6 +38,15 @@ class ViewController: UIViewController {
         students.append(jayden)
         students.append(cam)
         students.append(brennan)
+        students.append(peter)
+        students.append(matthew)
+        students.append(daniel)
+        students.append(ryan2)
+        students.append(eva)
+        students.append(evan)
+        students.append(ava)
+        students.append(justin)
+        
     }
 
 
